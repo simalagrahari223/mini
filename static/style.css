@@ -1,0 +1,115 @@
+
+body {
+  background: linear-gradient(135deg, #c3ecf7, #fdfcfb);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 50px;
+}
+
+
+  
+  .chat-container {
+    width: 350px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.chat-header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  background: linear-gradient(to right, #6ea7e8, #6fb1fc);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+  .avatar {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  .title {
+    line-height: 1.2;
+  }
+  
+  .status {
+    color: green;
+    font-size: 12px;
+  }
+  
+  .chat-body {
+    padding: 15px;
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .bot-message p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .info-box {
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .options button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    background: #eef3fd;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .chat-footer {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #eee;
+  }
+  
+  .chat-footer input {
+    flex: 1;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background: #f0f2f5;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .send-btn {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 14px;
+    cursor: pointer;
+  }
+
+  .options button {
+    transition: all 0.3s ease;
+  }
+  
+  .options button:hover {
+    transform: scale(1.02);
+    background-color: #cfe3fc;
+  }
+  
+  .send-btn:hover {
+  background-color: #3a78c2;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ChatBot Style Frontend</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <div class="avatar">💬</div>
+      <div class="title">
+        <strong>ConvoGenius</strong><br>
+        <span class="status">Online</span>
+      </div>
+    </div>
+
+    <div class="chat-body">
+      <div class="bot-message">
+        <p><strong>AI Powered Smart Chat</strong></p>
+        <p>Hello there! 👋 It's nice to meet you!</p>
+        <div class="info-box">
+          What brings you here today? Please use the navigation below or ask me anything about the College Recommendation System. ✏️
+        </div>
+        <div class="options">
+          <button>🛠 Build Recommendation</button>
+          <button>📘 How it Works</button>
+          <button>😊 I have questions</button>
+          <button>👀 Just browsing</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-footer">
+      <input type="text" placeholder="Type your message here..." />
+      <button class="send-btn">➤</button>
+    </div>
+  </div>
+</body>
+</html>
